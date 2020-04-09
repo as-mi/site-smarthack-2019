@@ -19,4 +19,4 @@ jobs:
         ftp-server: sftp://asmi.ro/var/www/smarthack
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        known-hosts: asmi.ro ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINRGXStIsKVReOc8426Vg+513V2iDwosyyk2+AA9Re6M
+        git-ftp-args: --insecure
