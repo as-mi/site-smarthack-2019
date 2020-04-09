@@ -16,7 +16,7 @@ jobs:
     - name: Deploy through SFTP
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: sftp://asmi.ro/var/www/smarthack
+        ftp-server: sftp://asmi.ro
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        git-ftp-args: --insecure
+        git-ftp-args: --insecure --remote-root /var/www/smarthack
