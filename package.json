@@ -1,0 +1,25 @@
+{
+  "name": "site-smarthack-2019",
+  "version": "1.0.0",
+  "description": "Acest repo conține codul din spatele site-ului de prezentare al hackathon-ului\r Smarthack, organizat de Asociația Studenților la Matematică și Informatică.",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1"
+  },
+  "scripts": {
+    "dev": "parcel ./src/*.html",
+    "build": "parcel build ./src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-mi/site-smarthack-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as-mi/site-smarthack-2019/issues"
+  },
+  "homepage": "https://github.com/as-mi/site-smarthack-2019#readme"
+}
