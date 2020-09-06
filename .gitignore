@@ -1,2 +1,9 @@
 /.ftpquota
 .idea/
+
+# Dependencies
+node_modules/
+
+# Build
+.cache/
+dist/
