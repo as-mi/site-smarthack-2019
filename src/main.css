@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* scroll-behavior: smooth; */
 }
 
 html,
@@ -1288,6 +1289,18 @@ a:focus {
   #section7 > div .contact-links .contact-link {
     padding: 12px 0 !important;
   }
+}
+
+#top, .scrollTop{
+  top: 93%; 
+  right: 1.5%;
+  bottom: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+.scrollTop:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
