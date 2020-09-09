@@ -143,7 +143,7 @@ $( document ).ready(function() {
     		menu.animate({
     			height: menuHeight,
     			width: 200
-    		},200,'swing');
+    		},125,'swing');
     		hamburger.addClass('active');
     		hamburgerActive = 1;
     	}
@@ -151,7 +151,7 @@ $( document ).ready(function() {
     		menu.animate({
     			height: 0,
     			width: 0
-    		},200);
+    		},125);
     		hamburger.removeClass('active');
     		hamburgerActive = 0;
     	}
@@ -162,7 +162,7 @@ $( document ).ready(function() {
     		menu.animate({
     			height: 0,
     			width: 0
-    		},200);
+    		},125);
     		hamburger.removeClass('active');
     		hamburgerActive = 0;
     	});
