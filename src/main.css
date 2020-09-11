@@ -467,6 +467,7 @@ a:focus {
 #section3 {
   padding: 60px 0;
   margin-top: -10px;
+  background-color: #e1e1e1;
 }
 
 #section3 .container .row > div {
@@ -476,7 +477,6 @@ a:focus {
 }
 
 #section3 .container .row h1 {
-  color: white;
   padding-bottom: 15px;
   margin-bottom: 60px;
   position: relative;
@@ -485,21 +485,13 @@ a:focus {
 
 #section3 .container .row h1:before {
   content: "";
-  width: 30%;
-  border-bottom: solid 1px white;
+  width: 40%;
+  border-bottom: solid 1px #ea7927;
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
-}
-
-#section3 .container .row p {
-  color: white;
-}
-
-#section3 .container .row ul li p {
-  color: white;
 }
 
 #section3 .container .row ul li p i {
