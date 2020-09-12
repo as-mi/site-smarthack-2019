@@ -26,7 +26,7 @@ $( document ).ready(function() {
 
 	$("#menu .acasa").on("click",function(){
         var body = $("html, body");
-        body.stop().animate({scrollTop:0}, 1000, 'swing');
+		body.stop().animate({scrollTop:0}, 1000, 'swing');
 	});
 	
 	$(".scrollTop").on("click",function(){

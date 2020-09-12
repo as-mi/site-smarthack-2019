@@ -65,9 +65,40 @@ a:focus {
   height: 40px;
 }
 
+#header nav a{
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+#header nav img{
+  height: 100%;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
 #header nav {
-  height: 100px;
+  height: 85px;
   width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+#header nav div.logoH{
+  width: 30%;
+}
+
+#header nav div.row ul#menu{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#header nav div.row ul li{
+  width: auto;
 }
 
 #header > nav {
@@ -79,6 +110,9 @@ a:focus {
 #header > nav .row {
   height: 100%;
   justify-content: flex-end;
+  width: 70%;
+  margin: 0;
+  position: relative;
 }
 
 #header > nav #menu {
@@ -95,7 +129,7 @@ a:focus {
 #header > nav #menu > li > a {
   display: flex;
   height: 100%;
-  padding: 0 2.5em;
+  padding: 0 2em;
   align-items: center;
   color: #e1e1e1 !important;
   text-transform: uppercase;
@@ -109,7 +143,7 @@ a:focus {
 
 #header > nav #menu > li > a:hover {
   color: #ea7927 !important;
-  background-color: #e1e1e1;
+  /* background-color: #e1e1e1; */
 }
 
 #header > nav .hamburger {
@@ -896,6 +930,10 @@ a:focus {
   #header nav {
     height: 80px;
   }
+  #header nav a{
+    letter-spacing: normal;
+    font-weight: normal;
+  }
 
   #header nav #menu > li > a {
     padding: 0 1.5em;
@@ -904,7 +942,7 @@ a:focus {
 
 @media (min-width: 981px) and (max-width: 1200px) {
   #header nav {
-    height: 80px !important;
+    height: 70px !important;
   }
 
   #header nav #menu > li > a {
@@ -920,7 +958,7 @@ a:focus {
   }
 
   #header nav {
-    background-color: rgba(64, 64, 64, 0.5);
+    background-color: #0a0f18;
   }
 
   #header nav #menu {
@@ -953,6 +991,10 @@ a:focus {
     overflow: hidden;
     background-color: white;
     transition: all 300ms ease;
+  }
+
+  #header nav img{
+    display: none;
   }
 
   #header nav #menu > li {
