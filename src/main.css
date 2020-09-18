@@ -375,6 +375,7 @@ a:focus {
   display: none;
 }
 
+
 #section2-container {
   background-color: #e1e1e1;
   padding: 300px 2rem 60px 3rem;
@@ -459,10 +460,19 @@ a:focus {
   max-width: 120px;
   min-width: 120px;
 }
-
 .section-where-when .program > li:last-child p {
   margin-bottom: 0;
 }
+
+.section2-location {
+  text-align: center;
+}
+
+.section2-location a {
+  color: white;
+}
+
+/* SECTION 3 STARTS HERE */
 
 #section3 {
   padding: 60px 0;
