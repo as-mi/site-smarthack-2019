@@ -1,3 +1,6 @@
+import counterUp from 'counterup2'
+require( 'waypoints/lib/noframework.waypoints.js' );
+
 var SMARTHACK_DATE = new Date(2019, 10, 2, 12); // 02 noiembrie 2019, ora 12
 
 $( document ).ready(function() {
@@ -167,6 +170,25 @@ $( document ).ready(function() {
     		hamburgerActive = 0;
     	});
     }
+
+
+	// get countable elements
+	const countables = document.getElementsByClassName('count');
+	for (const el of countables) 
+	{
+		//create waypoint for each countable. on scroll => start counting
+		var waypoint = new Waypoint({
+		element: el,
+		handler: function() {
+			counterUp(el);
+			this.destroy();
+		},
+		offset: 'bottom-in-view',
+	}) 
+	}
+		
+	
+  
 
 });
 
