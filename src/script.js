@@ -1,4 +1,4 @@
-var SMARTHACK_DATE = new Date(2020, 10, 2, 12); // 02 noiembrie 2019, ora 12
+var SMARTHACK_DATE = new Date(2019, 10, 2, 12); // 02 noiembrie 2019, ora 12
 
 $( document ).ready(function() {
 	var window_height = $(window).height();
