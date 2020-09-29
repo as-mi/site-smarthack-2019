@@ -170,3 +170,13 @@ $( document ).ready(function() {
 
 });
 
+window.addEventListener("scroll", function(){
+	let verticalScroll = window.pageYOffset;
+	if(pageYOffset === 0 && window.innerWidth > 980){
+		document.querySelector("nav").style.backgroundColor = "#0a0f18e3";
+		console.log(verticalScroll)
+	}
+	else if(pageYOffset !== 0){
+		document.querySelector("nav").style.backgroundColor = "#0a0f18";
+	}
+})
