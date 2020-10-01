@@ -1,7 +1,7 @@
 import counterUp from 'counterup2'
 require( 'waypoints/lib/noframework.waypoints.js' );
 
-var SMARTHACK_DATE = new Date(2019, 10, 2, 12); // 02 noiembrie 2019, ora 12
+var SMARTHACK_DATE = new Date(2019, 10, 2, 12); // 02 noiembrie 2019, ora 12, luna e 0-indexed
 
 $( document ).ready(function() {
 	var window_height = $(window).height();
@@ -83,7 +83,7 @@ $( document ).ready(function() {
 
     var date_future = SMARTHACK_DATE;
     var date_now = new Date();
-
+	
     var seconds = Math.floor((date_future - (date_now))/1000);
     var minutes = Math.floor(seconds/60);
     var hours = Math.floor(minutes/60);
@@ -93,11 +93,11 @@ $( document ).ready(function() {
     var minutes = minutes-(days*24*60)-(hours*60);
     var seconds = seconds-(days*24*60*60)-(hours*60*60)-(minutes*60);
     if(days < 0 ){
-    	clearInterval(calcNewYear);
-    	z.html("0");
-		o.html("0");
-    	m.html("0");
-    	s.html("0");
+		clearInterval(calcNewYear);
+		var timer = $('.timer');
+		timer.removeClass('col-11 col-sm-8 col-md-4')
+		timer.html("<li id='start-concurs'>🎉 Concursul a început! 🎉</li>")
+    	
     }
 	else{
 		z.html(days);
@@ -121,11 +121,12 @@ $( document ).ready(function() {
         minutes = minutes-(days*24*60)-(hours*60);
         seconds = seconds-(days*24*60*60)-(hours*60*60)-(minutes*60);
         if(days < 0){
+
 			clearInterval(calcNewYear);
-			z.html(0);
-			o.html(0);
-			m.html(0);
-			s.html(0);
+			var timer = $('.timer');
+			timer.removeClass('col-11 col-sm-8 col-md-4')
+			timer.html("<li id='start-concurs'>🎉 Concursul a început! 🎉</li>")
+		
 		}
        	else{
 			z.html(days);
