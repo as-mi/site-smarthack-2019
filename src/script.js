@@ -24,7 +24,7 @@ $( document ).ready(function() {
 
 	var p = 50/100*right;
 
-	$("#menu .acasa").on("click",function(){
+	$("#logoHeader").on("click",function(){
         var body = $("html, body");
 		body.stop().animate({scrollTop:0}, 1000, 'swing');
 	});
