@@ -308,6 +308,7 @@ a:focus {
   font-size: 1.2vw;
 }
 
+
 #header #section1-container .row:nth-child(2) .button {
   box-sizing: border-box;
   width: 100%;
@@ -330,6 +331,15 @@ a:focus {
   border-color: #e1e1e1;
   background-color: #e1e1e1;
 }
+
+#start-concurs {
+  font-weight: 300;
+  font-size: 1.8vw;
+  text-transform: none;
+  color: #2e4571;
+
+}
+
 
 #whiteBackground-substitution {
   position: fixed;
@@ -902,6 +912,9 @@ a:focus {
   #header nav #menu > li > a {
     padding: 0 1.5em;
   }
+  #start-concurs {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 981px) and (max-width: 1200px) {
@@ -914,7 +927,10 @@ a:focus {
     padding: 0 1.5em;
     align-items: center;
   }
+
+
 }
+
 
 @media (min-width: 981px) {
   #header #section1-info {
@@ -1091,6 +1107,10 @@ a:focus {
   .button-inscriere:hover {
     background-color: #e1e1e1 !important;
     border: solid 4px #e1e1e1 !important;
+  }
+
+  #start-concurs {
+    font-size: 5vw;
   }
 }
 
