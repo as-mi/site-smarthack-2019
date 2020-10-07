@@ -828,11 +828,12 @@ a:focus {
 }
 
 #section6 section > a {
-  margin: 1rem 0.5rem;
+  margin: 1rem 1.5rem;
 }
 
 #section6 section img {
   max-height: 90px;
+  max-width: 100%;
   vertical-align: middle;
 }
 
@@ -1363,7 +1364,7 @@ a:focus {
 }
 
 #top, .scrollTop {
-  top: 93%; 
+  top: 93%;
   right: 1.5%;
   bottom: 0;
   position: fixed;
