@@ -1137,6 +1137,10 @@ a:focus {
     color: #ea7927;
   }
 
+  .mobile-info > .container > .row > div h4 > a {
+    color: #ea7927;
+  }
+
   .mobile-info > .container > .row > div h4 > i {
     margin: 0 2vw;
     color: #e1e1e1;
