@@ -21,7 +21,8 @@ jobs:
     - run: npm run build
       env:
         CI: true
-
+    - name: Copy metatag image to output
+      run: mkdir -p ./dist/img/ && cp ./src/img/metatag.png ./dist/
     - name: Deploy through SFTP
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
