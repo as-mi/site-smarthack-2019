@@ -74,6 +74,8 @@ a:focus {
   height: 100%;
   padding: 15px 50px;
   box-sizing: border-box;
+  display: block;
+  max-width: 300px;
 }
 
 #header nav {
