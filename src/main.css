@@ -662,7 +662,9 @@ a:focus {
 }
 
 #section5 h1,
-#section5 p {
+#section5 h2,
+#section5 p,
+#section5 .teams-list {
   color: #2e4571;
 }
 
@@ -759,6 +761,16 @@ a:focus {
   color: white;
   text-decoration: none;
 }
+
+#section5 h2 {
+  text-align: center;
+}
+
+#section5 .teams-list {
+  width: 100%;
+  text-align: center;
+}
+
 
 #section6 {
   min-height: 100%;
