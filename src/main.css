@@ -771,6 +771,9 @@ a:focus {
   text-align: center;
 }
 
+#section5 .teams-list > div {
+  margin-bottom: 30px;
+}
 
 #section6 {
   min-height: 100%;
