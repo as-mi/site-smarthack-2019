@@ -427,7 +427,8 @@ a:focus {
 
 #section2-container {
   background-color: #e1e1e1;
-  padding: 300px 2rem 60px 3rem;
+  /*padding: 300px 2rem 60px 3rem;*/
+  padding: 2rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
